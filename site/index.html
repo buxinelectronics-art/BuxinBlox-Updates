@@ -7,6 +7,7 @@
   <meta name="description" content="Download the latest BuxinBloxs coding and robotics learning app for Windows.">
   <title>Download BuxinBloxs</title>
   <link rel="stylesheet" href="styles.css">
+  <script src="arm-demo.js" defer></script>
   <script src="app.js" defer></script>
 </head>
 <body>
@@ -48,19 +49,11 @@
         <p class="trust-note"><span aria-hidden="true">✓</span> Always points to the latest published version</p>
       </div>
 
-      <div class="hero-art" aria-label="Illustration of a virtual robot arm and coding blocks" role="img">
-        <div class="art-glow"></div>
-        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+      <div class="hero-art" aria-label="Animated robot arm moving boxes between conveyors">
+        <div class="art-glow" aria-hidden="true"></div>
+        <canvas id="arm" width="900" height="560" role="img" aria-label="A yellow robot arm picks boxes from a low conveyor and places them on a higher conveyor"></canvas>
         <div class="code-card card-top"><span class="code-dot orange"></span><span class="code-dot blue"></span><span class="code-dot green"></span><code>when <b>▶</b> clicked</code></div>
-        <div class="robot-stage">
-          <div class="robot-base"><i></i></div>
-          <div class="robot-link link-lower"></div><div class="robot-link link-upper"></div>
-          <div class="joint joint-base"></div><div class="joint joint-mid"></div><div class="joint joint-top"></div>
-          <div class="robot-grip"><i></i><b></b><em></em></div>
-          <div class="robot-cable cable-a"></div><div class="robot-cable cable-b"></div>
-        </div>
         <div class="code-card card-bottom"><span class="block-icon">{ }</span><div><strong>Build it your way</strong><small>Blocks · Python · Robotics</small></div></div>
-        <span class="spark spark-a">✦</span><span class="spark spark-b">✧</span>
       </div>
     </section>
 
