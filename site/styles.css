@@ -22,3 +22,15 @@ h1,h2,h3,p{margin-top:0}h1,h2,h3{font-family:'Trebuchet MS',Arial,sans-serif}h1{
 .hero-art{height:auto;min-height:0}
 .hero-art canvas{width:100%;height:auto}
 @media(max-width:650px){.hero-art{height:auto;min-height:0;margin:-16px 0 6px;transform:none}}
+
+.intro-videos{padding-block:48px 62px;border-top:1px solid rgba(151,178,210,.12)}
+.intro-videos .section-heading{margin-bottom:26px}
+.intro-video-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.intro-video-card{min-width:0;padding:16px;border:1px solid var(--line);border-radius:var(--radius);background:linear-gradient(145deg,rgba(17,39,64,.9),rgba(11,27,47,.86));box-shadow:0 12px 32px rgba(0,0,0,.14)}
+.intro-video-heading{display:flex;align-items:center;gap:11px;margin-bottom:13px}
+.intro-video-heading h3{margin:0 0 4px;font-size:15px;letter-spacing:-.02em}
+.intro-video-heading p{margin:0;color:var(--muted);font-size:11px;line-height:1.5}
+.language-badge{display:grid;place-items:center;flex:0 0 39px;height:39px;border:1px solid rgba(119,197,255,.28);border-radius:12px;background:rgba(57,165,255,.13);color:#91d1ff;font-size:10px;font-weight:900;letter-spacing:.04em}
+.intro-video-frame{width:100%;aspect-ratio:560/314;overflow:hidden;border:1px solid rgba(151,178,210,.16);border-radius:11px;background:#050c15}
+.intro-video-frame iframe{display:block;width:100%;height:100%;border:0}
+@media(max-width:650px){.intro-videos{padding-block:34px 42px}.intro-video-grid{grid-template-columns:1fr;gap:13px}.intro-video-card{padding:12px}}
